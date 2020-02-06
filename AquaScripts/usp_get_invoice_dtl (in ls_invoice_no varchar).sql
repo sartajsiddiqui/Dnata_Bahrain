@@ -1,6 +1,6 @@
 CREATE OR REPLACE FUNCTION public.usp_get_invoice_dtl (in ls_invoice_no varchar) RETURNS SETOF usp_get_invoice_dtl_ctype AS
 $BODY$ DECLARE res 
-	usp_get_invoice_dtl_ctype; 
+	usp_get_invoice_dtl_ctype ; 
 
 declare bkg_valid char(1);
 
